@@ -24,7 +24,7 @@ namespace ProjectMsTests
             Assert.IsTrue(res);
         }
         [TestMethod]
-        public void CheckIfAccountExists_W_RightAccount_ShouldNOT_Be_Found()
+        public void CheckIfAccountExists_W_WrongAccount_ShouldNOT_Be_Found()
         {
             //Arrange
             DataBase db = new DataBase();
